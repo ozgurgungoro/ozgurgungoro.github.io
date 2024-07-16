@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    margin-top: 20px; /* Üstten 20 piksel boşluk */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.social-links {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.social-link {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.social-link img {
+    vertical-align: middle;
+}
+
+.content {
+    text-align: center;
+}
+
+.button-group {
+    margin-top: 20px;
+}
+
+.button-group button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-group button:hover {
+    background-color: #0056b3;
+}
